@@ -1,0 +1,60 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testinterview.amazon",
+    "children" : [ {
+      "name" : "test_search",
+      "children" : [ {
+        "name" : "test_search_airmax",
+        "uid" : "63ad73176462f0b4",
+        "parentUid" : "2a54b63bf71d85a6f9fd8b86c02a1b2b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1574213793041,
+          "stop" : 1574213793725,
+          "duration" : 684
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2a54b63bf71d85a6f9fd8b86c02a1b2b"
+    }, {
+      "name" : "test_search_multiple",
+      "children" : [ {
+        "name" : "test_search",
+        "uid" : "97453a0136446d05",
+        "parentUid" : "2986a81f7bbe9583103f3286b7ee3ae4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1574213796381,
+          "stop" : 1574213796987,
+          "duration" : 606
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2986a81f7bbe9583103f3286b7ee3ae4"
+    }, {
+      "name" : "test_title",
+      "children" : [ {
+        "name" : "test_title",
+        "uid" : "9f1d56c6a0176079",
+        "parentUid" : "7b3d2a4e59e04e13413985f3a7513e23",
+        "status" : "broken",
+        "time" : {
+          "start" : 1574213797604,
+          "stop" : 1574213797604,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7b3d2a4e59e04e13413985f3a7513e23"
+    } ],
+    "uid" : "e0767811374e0a01876acdc9a43d7565"
+  } ]
+}

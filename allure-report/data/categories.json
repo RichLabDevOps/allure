@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 'Robot Check' == 'Amazon.com: ..., DVDs & more'\n  - Robot Check\n  + Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more",
+      "children" : [ {
+        "name" : "test_search_airmax",
+        "uid" : "63ad73176462f0b4",
+        "parentUid" : "bb4d148482c9516530d31e96066b8a21",
+        "status" : "failed",
+        "time" : {
+          "start" : 1574213793041,
+          "stop" : 1574213793725,
+          "duration" : 684
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_search",
+        "uid" : "97453a0136446d05",
+        "parentUid" : "bb4d148482c9516530d31e96066b8a21",
+        "status" : "failed",
+        "time" : {
+          "start" : 1574213796381,
+          "stop" : 1574213796987,
+          "duration" : 606
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bb4d148482c9516530d31e96066b8a21"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "NameError: name 'driver' is not defined",
+      "children" : [ {
+        "name" : "test_title",
+        "uid" : "9f1d56c6a0176079",
+        "parentUid" : "bd2d49163f853b6fdbb44ba8e98870b8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1574213797604,
+          "stop" : 1574213797604,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bd2d49163f853b6fdbb44ba8e98870b8"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

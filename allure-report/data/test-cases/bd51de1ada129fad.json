@@ -1,0 +1,81 @@
+{
+  "uid" : "bd51de1ada129fad",
+  "name" : "test_search_airmax",
+  "fullName" : "testinterview.amazon.test_search#test_search_airmax",
+  "historyId" : "4a3cdf36f1f56dc7c43066bf3e000a70",
+  "time" : {
+    "start" : 1574213272327,
+    "stop" : 1574213277264,
+    "duration" : 4937
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "env_setup",
+    "time" : {
+      "start" : 1574213269247,
+      "stop" : 1574213272325,
+      "duration" : 3078
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "env_setup::0",
+    "time" : {
+      "start" : 1574213277266,
+      "stop" : 1574213277481,
+      "duration" : 215
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testinterview.amazon"
+  }, {
+    "name" : "suite",
+    "value" : "test_search"
+  }, {
+    "name" : "host",
+    "value" : "Richelios-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "4022-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testinterview.amazon.test_search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bd51de1ada129fad.json",
+  "parameterValues" : [ ]
+}

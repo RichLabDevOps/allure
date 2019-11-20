@@ -1,0 +1,94 @@
+{
+  "uid" : "9f1d56c6a0176079",
+  "name" : "test_title",
+  "fullName" : "testinterview.amazon.test_title#test_title",
+  "historyId" : "c028d0632590935e18843bb9ace27b21",
+  "time" : {
+    "start" : 1574213797604,
+    "stop" : 1574213797604,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "NameError: name 'driver' is not defined",
+  "statusTrace" : "@pytest.fixture()\n    def env_setup():\n        global driver\n        global baseUrl\n        # we will use Google Chrome in this test. Specify the location of your chromedriver.exe\n        ddriver = webdriver.Chrome(\"/Users/richeliolabrague/Downloads/chromedriver\")\n        # wait 10 seconds till the website will open\n>       driver.implicitly_wait(10)\nE       NameError: name 'driver' is not defined\n\ntestinterview/amazon/test_title.py:18: NameError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "env_setup",
+    "time" : {
+      "start" : 1574213797605,
+      "stop" : 1574213799507,
+      "duration" : 1902
+    },
+    "status" : "broken",
+    "statusMessage" : "NameError: name 'driver' is not defined\n",
+    "statusTrace" : "  File \"/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pluggy/callers.py\", line 187, in _multicall\n    res = hook_impl.function(*args)\n  File \"/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/_pytest/fixtures.py\", line 949, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/_pytest/fixtures.py\", line 775, in call_fixture_func\n    res = next(it)\n  File \"/Users/richeliolabrague/PycharmProjects/Dropdown/GIthubTest/testinterview/amazon/test_title.py\", line 18, in env_setup\n    driver.implicitly_wait(10)\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testinterview.amazon"
+  }, {
+    "name" : "suite",
+    "value" : "test_title"
+  }, {
+    "name" : "host",
+    "value" : "Richelios-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "4208-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testinterview.amazon.test_title"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "174a13c6d533525f",
+      "status" : "broken",
+      "statusDetails" : "NameError: name 'driver' is not defined",
+      "time" : {
+        "start" : 1574213280420,
+        "stop" : 1574213280420,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "30cb0b1f64bca44a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'C:\\Users\\chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home",
+      "time" : {
+        "start" : 1574213086632,
+        "stop" : 1574213086632,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "9f1d56c6a0176079.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Tue Nov 19 20:36:36 EST 2019","Tue Nov 19 20:36:36 EST 2019","606","testinterview.amazon","test_search_multiple","","","","test_search",""
+"broken","Tue Nov 19 20:36:37 EST 2019","Tue Nov 19 20:36:37 EST 2019","0","testinterview.amazon","test_title","","","","test_title",""
+"failed","Tue Nov 19 20:36:33 EST 2019","Tue Nov 19 20:36:33 EST 2019","684","testinterview.amazon","test_search","","","","test_search_airmax",""

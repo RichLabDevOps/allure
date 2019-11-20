@@ -1,0 +1,138 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Richelios-MacBook-Pro.local",
+    "children" : [ {
+      "name" : "4022-MainThread",
+      "children" : [ {
+        "name" : "test_title",
+        "uid" : "174a13c6d533525f",
+        "parentUid" : "a6c0d875afb3a89621a66dfbdfac9f5f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1574213280420,
+          "stop" : 1574213280420,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_search",
+        "uid" : "5481fff8b520b332",
+        "parentUid" : "a6c0d875afb3a89621a66dfbdfac9f5f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1574213279770,
+          "stop" : 1574213280293,
+          "duration" : 523
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_search_airmax",
+        "uid" : "bd51de1ada129fad",
+        "parentUid" : "a6c0d875afb3a89621a66dfbdfac9f5f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574213272327,
+          "stop" : 1574213277264,
+          "duration" : 4937
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a6c0d875afb3a89621a66dfbdfac9f5f"
+    }, {
+      "name" : "3988-MainThread",
+      "children" : [ {
+        "name" : "test_search_airmax",
+        "uid" : "1ef206a8f5ec34b4",
+        "parentUid" : "29db0aaa9d86779a972504cf071a5c69",
+        "status" : "broken",
+        "time" : {
+          "start" : 1574213086408,
+          "stop" : 1574213086408,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_search",
+        "uid" : "c2c298a9d60dc854",
+        "parentUid" : "29db0aaa9d86779a972504cf071a5c69",
+        "status" : "broken",
+        "time" : {
+          "start" : 1574213086554,
+          "stop" : 1574213086554,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_title",
+        "uid" : "30cb0b1f64bca44a",
+        "parentUid" : "29db0aaa9d86779a972504cf071a5c69",
+        "status" : "broken",
+        "time" : {
+          "start" : 1574213086632,
+          "stop" : 1574213086632,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "29db0aaa9d86779a972504cf071a5c69"
+    }, {
+      "name" : "4208-MainThread",
+      "children" : [ {
+        "name" : "test_title",
+        "uid" : "9f1d56c6a0176079",
+        "parentUid" : "8143bb941c7931ad6b5ad3fc802ceb01",
+        "status" : "broken",
+        "time" : {
+          "start" : 1574213797604,
+          "stop" : 1574213797604,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_search_airmax",
+        "uid" : "63ad73176462f0b4",
+        "parentUid" : "8143bb941c7931ad6b5ad3fc802ceb01",
+        "status" : "failed",
+        "time" : {
+          "start" : 1574213793041,
+          "stop" : 1574213793725,
+          "duration" : 684
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_search",
+        "uid" : "97453a0136446d05",
+        "parentUid" : "8143bb941c7931ad6b5ad3fc802ceb01",
+        "status" : "failed",
+        "time" : {
+          "start" : 1574213796381,
+          "stop" : 1574213796987,
+          "duration" : 606
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8143bb941c7931ad6b5ad3fc802ceb01"
+    } ],
+    "uid" : "d8b01e91eb1072260bcb9afa194ea8e3"
+  } ]
+}
